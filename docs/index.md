@@ -11,7 +11,7 @@
     VPNs, services and system tooling with a consistent UX.
   </p>
   <div class="hero-buttons">
-    <a href="security/index.md">Explore Security</a>
+    <a href="security/">Explore Security</a>
     <a href="services/index/" class="secondary">See Services</a>
     <a href="about/roadmap/" class="secondary">Roadmap</a>
   </div>
