@@ -1,0 +1,39 @@
+site_name: Automation in Linux — Morgein
+site_description: Morgein's hub for Linux automation tools
+repo_url: https://github.com/YOUR_USERNAME/Automation-in-Linux
+theme:
+  name: material
+  logo: assets/images/morgein-logo.svg
+  favicon: assets/images/morgein-favicon.svg
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
+    - content.code.copy
+    - content.action.edit
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme)"
+      scheme: slate
+      primary: black
+      accent: green
+extra_css:
+  - assets/styles/morgein.css
+nav:
+  - Home: index.md
+  - Security:
+    - Overview: security/index.md
+    - VPNs:
+      - Overview: security/VPNs/index.md
+      - WireGuard: security/VPNs/wireguard.md
+      - OpenVPN: security/VPNs/openvpn.md
+      - strongSwan (IPsec): security/VPNs/strongswan.md
+  - Services:
+    - Overview: services/index.md
+    - Samba: services/samba.md
+  - About:
+    - Roadmap: about/roadmap.md
+plugins:
+  - search

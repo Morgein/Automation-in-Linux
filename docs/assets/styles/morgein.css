@@ -1,0 +1,9 @@
+:root { --morgein-green: #00d084; --morgein-green-2: #00b36b; --morgein-black: #0b0f10; }
+.md-header, .md-footer { background: var(--morgein-black); }
+.md-typeset a { text-decoration: none; }
+.md-typeset .hero-title { font-size: 3rem; font-weight: 800; letter-spacing: 0.02em; }
+.md-typeset .hero-subtitle { font-size: 1.1rem; color: #b7c5c8; }
+.hero { margin: 2rem 0 3rem 0; padding: 2rem; border-radius: 1rem; background: linear-gradient(135deg, rgba(0,208,132,0.10), rgba(0,179,107,0.08)); border: 1px solid rgba(0,208,132,0.25); box-shadow: 0 10px 30px rgba(0,0,0,0.25); }
+.hero-buttons a { display: inline-block; margin-right: .75rem; margin-bottom: .75rem; padding: .7rem 1rem; border-radius: .75rem; background: var(--morgein-green); color: #04110b !important; font-weight: 700; }
+.hero-buttons a.secondary { background: transparent; color: var(--morgein-green) !important; border: 2px solid var(--morgein-green); }
+.badges img { height: 22px; margin-right: .5rem; }
