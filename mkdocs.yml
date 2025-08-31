@@ -1,6 +1,6 @@
 site_name: Automation in Linux — Morgein
 site_description: Morgein's hub for Linux automation tools
-repo_url: https://github.com/YOUR_USERNAME/Automation-in-Linux
+repo_url: https://github.com/Morgein/Automation-in-Linux
 theme:
   name: material
   logo: assets/images/morgein-logo.svg
