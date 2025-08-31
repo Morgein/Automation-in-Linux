@@ -12,7 +12,7 @@
   </p>
   <div class="hero-buttons">
     <a href="security/">Explore Security</a>
-    <a href="services/index/" class="secondary">See Services</a>
+    <a href="services/" class="secondary">See Services</a>
     <a href="about/roadmap/" class="secondary">Roadmap</a>
   </div>
 </div>
